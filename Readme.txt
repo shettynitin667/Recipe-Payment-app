@@ -11,9 +11,8 @@ install all the dependencies using the 'package.json' file).
 "npm start".
 5. It will run the project on 'http://localhost:3000/
 -------------------------------------------------------------------------------------------------
-# Screenshots:
-1. Inside the unzipped folder there is a folder named 'Screenshots'.
-2. You can find the screenshots of the different pages of the website in
-this folder.
+
+Note: 
+Authentication is not completely handled in this project.
 
 
