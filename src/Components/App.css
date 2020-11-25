@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgb(51, 50, 50);
+}
+
+.backImage {
+  width: 100%;
+  height: 100%;
+}
+
+.backImage .pizza {
+  position: fixed;
+  bottom: -30%;
+  left: -15%;
+  opacity: 0.4;
+  width: 40%;
+  transform: rotate(-90deg);
+  z-index: 0;
+}
+
+.backImage .coffee {
+  position: fixed;
+  top: -10%;
+  right: -10%;
+  opacity: 0.4;
+  width: 40%;
+  z-index: 0;
+}
+
+@media (max-width: 1000px) {
+  .backImage .pizza,
+  .backImage .coffee {
+    width: 90%;
+  }
+
+  .backImage .pizza {
+    bottom: -20%;
+  }
+  .backImage .coffee {
+    top: -5%;
+  }
+}

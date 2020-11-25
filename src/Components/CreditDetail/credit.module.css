@@ -1,0 +1,68 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.card {
+  width: 80% !important;
+}
+.form input {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+::placeholder {
+  font-weight: 400;
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.form .pay {
+  text-decoration: none;
+  background: none;
+  color: rgb(0, 223, 0);
+  border: 2px solid rgb(0, 223, 0);
+  padding: 8px 15px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+.form .pay:hover {
+  color: white;
+  background: rgb(0, 223, 0);
+}
+
+.form input[name="number"],
+.form input[name="name"] {
+  width: 100%;
+}
+
+.form .single {
+  display: flex;
+  justify-content: space-between;
+}
+.form .single input {
+  width: 100px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardNumber input {
+  width: 50px;
+}
