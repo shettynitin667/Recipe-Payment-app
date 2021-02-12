@@ -12,6 +12,12 @@ install all the dependencies using the 'package.json' file).
 5. It will run the project on 'http://localhost:3000/
 -------------------------------------------------------------------------------------------------
 
+About database.json file
+1. I have used local json file to get the recipe data
+2. To add more recipes you can add data to the json file in the same format as other data or else you can make an api with the same format and change the App.js file accordingly.
+3. Iy you use an api to get the data then you can use axios to get the data(use async await) and set the state.
+
+
 Note: 
 Authentication is not completely handled in this project.
 
