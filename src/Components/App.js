@@ -7,6 +7,7 @@ import GridContainer from "./gridContainer";
 import Navbar from "./navbar";
 import CreditCard from "./creditForm";
 import BadRequest from "./badRequest";
+import recipeData from "./../database.json";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -16,7 +17,7 @@ class App extends Component {
   };
 
   getData = async () => {
-    let { data } = await axios.get("http://starlord.hackerearth.com/recipe");
+    let data = recipeData;
     this.setState((state) => ({ recipes: data }));
   };
 

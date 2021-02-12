@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "label":"Hot",
+        "category":"Meal",
+        "name":"Samosa",
+        "image":"http://source.unsplash.com/8T9AVksyt7s",
+        "description":"A samosa is a fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, cheese, beef and other meats, or lentils",
+        "price":"2"
+    },
+    {
+        "id":"1",
+        "label":"Hot",
+        "category":"Meal",
+        "name":"Meat Curry",
+        "image":"http://source.unsplash.com/POFG828-GQc",
+        "description":"Cooked meat on pan",
+        "price":"10"
+    }
+]
