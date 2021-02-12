@@ -9,12 +9,39 @@
         "price":"2"
     },
     {
-        "id":"1",
+        "id":"2",
         "label":"Hot",
         "category":"Meal",
-        "name":"Meat Curry",
-        "image":"http://source.unsplash.com/POFG828-GQc",
-        "description":"Cooked meat on pan",
-        "price":"10"
+        "name":"Roti Bhaji",
+        "image":"http://source.unsplash.com/ZSukCSw5VV4",
+        "description":"Roti Bhaji",
+        "price":"8"
+    },
+    {
+        "id":"3",
+        "label":"Hot",
+        "category":"Meal",
+        "name":"Pizza with Berries",
+        "image":"http://source.unsplash.com/MQUqbmszGGM",
+        "description":"Pizza with lots of berries",
+        "price":"18"
+    },
+    {
+        "id":"4",
+        "label":"Hot",
+        "category":"Meal",
+        "name":"Special Pizza",
+        "image":"http://source.unsplash.com/CbNAuxSZTFo",
+        "description":"Pizza with green leaves",
+        "price":"28"
+    },
+    {
+        "id":"5",
+        "label":"Hot",
+        "category":"Meal",
+        "name":"Burger",
+        "image":"http://source.unsplash.com/CbNAuxSZTFo",
+        "description":"Hamburger with lots of vegetables and cheese",
+        "price":"28"
     }
 ]
